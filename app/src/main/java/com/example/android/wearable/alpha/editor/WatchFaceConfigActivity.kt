@@ -166,4 +166,7 @@ class WatchFaceConfigActivity : ComponentActivity() {
     companion object {
         const val TAG = "WatchFaceConfigActivity"
     }
+
+    fun onClickMiddleComplicationButton(view: View) {}
+    fun onClickRightComplicationButton(view: View) {}
 }

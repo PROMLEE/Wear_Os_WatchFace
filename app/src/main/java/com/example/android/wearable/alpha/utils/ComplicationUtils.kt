@@ -15,6 +15,7 @@
  */
 package com.example.android.wearable.alpha.utils
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.graphics.Color
 import android.graphics.RectF
@@ -44,10 +45,11 @@ private val COMPLICATION2_Rect = RectF(0.39f,0.62f,0.61f,0.84f)
 private val COMPLICATION3_Rect = RectF(0.643f,0.384f,0.843f,0.584f)
 private val COMPLICATION4_Rect = RectF(0.425f,0.262f,0.575f,0.412f)
 
-private val COMPLICATION5_Rect = RectF(0.15f,0.15f,0.2f,0.2f)
-private val COMPLICATION6_Rect = RectF(0.8f,0.15f,0.85f,0.2f)
-private val COMPLICATION7_Rect = RectF(0.8f,0.8f,0.85f,0.85f)
-private val COMPLICATION8_Rect = RectF(0.15f,0.8f,0.2f,0.85f)
+private val COMPLICATION5_Rect = RectF(0.17f,0.17f,0.27f,0.27f)
+private val COMPLICATION6_Rect = RectF(0.16f,0.74f,0.26f,0.84f)
+private val COMPLICATION7_Rect = RectF(0.75f,0.74f,0.85f,0.84f)
+private val COMPLICATION8_Rect = RectF(0.73f,0.16f,0.83f,0.26f)
+@SuppressLint("NonConstantResourceId")
 private const val DEFAULT_COMPLICATION_STYLE_DRAWABLE_ID = R.drawable.complication_red_style
 
 // Unique IDs for each complication. The settings activity that supports allowing users
